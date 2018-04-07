@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/sdl1.css')}}"/>
+</head>
+
+<body>
+   <h1>CODE VTV</h1>
+   <div id = "div11">
+   	<p >
+         hello {{username}} After Analyzing Your profile we recommended you to solve this problem<br> <a href={{value}} target="_blank"> {{value}}</a> </p>
+   	
+
+        
+   </div>
+<div id ="div12">
+  
+  <img src="{{ url_for('static',filename='image/graph11.jpg')}}" alt="graph1" style="width:450px;height:300px; margin-left:150px;padding-top:40px;">
+  <img src="{{ url_for('static',filename='image/graph12.jpg')}}" alt="graph2" style="width:450px;height:300px; margin-left:50px;padding-top:40px;">
+  
+</div>
+
+<div id ="div9">
+<h3>Strong Areas/Tags</h3><br>
+<p>{{list_s[0]}}<br>{{list_s[1]}}<br>{{list_s[2]}}</p>
+</div>
+
+<div id ="div8">
+<h3>Weak Areas/Tags</h3><br>
+<p>{{list_w[0]}}<br>{{list_w[1]}}<br>{{list_w[2]}}</p>
+</div>
+<div id ="div13">
+    <form  method="POST" action="/tag">
+   <p>Enter the tag in which you need improvment <br>commanly available tags : <b>implementation dsu dp sorting greedy graphs math games brute force</b></p>
+<input type="text" placeholder ="Tag need Improvement" style = "padding:9px 155px;" name="tagg">
+<input type="submit" value = "Submit" style = "padding:9px 20px;">
+<div>
+</body>
+</html>

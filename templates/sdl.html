@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Code Royale</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/1.css')}}" />
+</head>
+
+<body background="{{ url_for('static',filename='image/background.jpg')}}">
+
+	<h2>Code Royale</h2>
+	<div id = "div2">
+   Welcome to Code Royale. <br>Compete with strangers to prove your mettle and speed in solving problems.
+   <br>
+   <img src="{{ url_for('static',filename='image/fist.jpg')}}"
+   </div>
+   <div id = "div1">
+   	<form  method="POST" action="/compete">
+   		<p style:"font-size:50px;">
+   		Enter Handel Name : </p>
+   		<input type="text" placeholder ="Enter Username to take"style = "padding:9px 155px;" name="handel">
+   		<input type="submit" value = "Let's Compete" style = "padding:9px 20px;">
+   	</form>
+   	</div>
+
+</body>
+</html>

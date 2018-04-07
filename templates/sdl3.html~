@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/sdl.css')}}" />
+</head>
+
+<body>
+	<h1>CODE VTV</h1>
+   <div id = "div1">
+   <h2>About</h2>
+    <p> We built code VTV primarily for problem recommendations. Whenever we sat down for practicing, we faced a big problem: what problem to solve next? So we decided to build code VTV to recommend practice problems to solve next based on your past submissions.we are group of three members and we are making this project as our SDL project under the gudience of Prof. Anup Kadam.<b><br>   Vishwajeet partap Singh<br>  Vikas Manhas <br>   Tushar Kumar Singh</b>
+    
+    </p>
+    
+    <h2>Suggestion</h2>
+    <p> In case you have any suggestion that how can we improve this project then mail us on any of the following email id<br>
+    <b>   tushar784k@gmail.com<br>   vishwajeet.partapsingh2207@gmail.com<br>   vikasmanhasriit@gmail.com</p>
+   </div>
+
+</body>
+</html>

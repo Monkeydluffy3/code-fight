@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/sdl.css')}}" />
+</head>
+
+<body>
+	<h1>CODE VTV</h1>
+   <div id = "div1">
+   	<form  method="POST" action="/username">
+   		<p style:"font-size:50px;">
+   		Enter Your User Name : </p>
+   		<input type="text" placeholder ="UserName of Codeforces"style = "padding:9px 155px;" name="user">
+   		<input type="submit" value = "Submit" style = "padding:9px 20px;">
+   	</form>
+   	
+
+        
+   </div>
+   <form  method="POST" action="/Aboutus">
+  <div id = "div2">
+  <input type="submit" value = "About Us" style = "padding:9px 20px;">
+  </div>
+
+</body>
+</html>

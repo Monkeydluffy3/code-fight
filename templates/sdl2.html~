@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/sdl2.css')}}"/>
+</head>
+
+<body>
+   <h1>CODE VTV</h1>
+
+<div id ="div12">
+  
+  <img src="{{ url_for('static',filename='image/graph11.jpg')}}" alt="graph1" style="width:450px;height:300px; margin-left:150px;padding-top:40px;">
+  <img src="{{ url_for('static',filename='image/graph12.jpg')}}" alt="graph1" style="width:450px;height:300px; margin-left:50px;padding-top:40px;">
+  
+</div>
+<div id ="div13">
+    <p> 
+        Dear After Reading your profile and according to your choice we recommended you to solve this problem <br> <a href={{value2}} target="_blank"> {{value2}} </a> 
+    </p>
+<div>
+</body>
+</html>

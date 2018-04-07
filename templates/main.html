@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title> Compete</title>
+<link rel='stylesheet' href='{{ url_for('static',filename='css/2.css')}}' type='text/css' /> 
+</head>
+<body>
+  <div id = "div1">
+
+  </div>
+  <div id = "div2">
+
+  </div>
+    <div id = "div3">
+    <h1>Code Royale</h1>
+    <div id = "div4">
+      <div id = "div5">
+    <h2>Problem Statement</h2>
+    <p>{{problem[0]}}</p>
+    <h2>Constraints</h2>
+    <p>{{problem[1]}}</p>
+    <h2>Input Format</h2>
+    <p>{{problem[2]}}</p>
+    <h2>Output Format</h2>
+    <p>{{problem[3]}}</p>
+    <h2>Sample Input</h2>
+    <p>{{problem[4]}}</p>
+    <h2>Sample Output</h2>
+    <p>{{problem[5]}}</p>
+    <form method="POST">
+  <select name="language">
+    <option value="C++">C++</option>
+    <option value="Java">Java</option>
+    <option value="Python3">Python 3</option>
+  </select>
+
+<br>
+  
+  <textarea name="message" rows="20" cols="150"style = "font-size: 20px;" ></textarea>
+<br><br>
+<button type = "submit" value="Submit" method="POST" formaction="/final_submit">SUBMIT</button>
+
+  <br>
+  <textarea placeholder="'Compile & Test' option is used to check 'Your Code' aganist 'Input(s)' that are entered here!. Please 'Copy-Paste' the input 'given in example'  or provide 'custom input'. Please note that Custom Input(s) should be mentioned in the same order (format) as stated in the problem description above." name="input1" rows="5" cols="150" style = "font-size: 20px; width : 850px; height : 150px;" ></textarea>
+  <br>
+
+  <button type = "submit" value="Check" method="POST" formaction="/check">Test</button>
+  </form>
+  
+</div>
+</div>
+</div>
+
+   
+</body>
+</html>

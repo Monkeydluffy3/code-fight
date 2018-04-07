@@ -1,0 +1,62 @@
+body{
+	background-color: #b3cccc;
+}
+#div1{
+    width : 180px;
+	height: 2490px;
+	float: left;
+	background-color: white;
+}
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+#div2{
+    width : 180px;
+	height: 2490px;
+	float: right;
+	background-color: white;
+}
+#div4{
+	margin-left: 200px; 
+	margin-right: 200px;
+	height: 2390px;
+	box-shadow: -4px -4px 8px 8px rgba(0, 0, 0, 0.6);
+	background-color: white;
+}
+#div5{
+	margin-left: 10px; 
+	margin-right: 10px;
+	text-align: justify;
+	font-size:20px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#div5 button{
+	padding: 5px,10px;	
+   background-color: gray;
+   box-shadow: -2px -2px 0px 0px rgba(0, 0, 0, 0.6);
+
+}
+
+#div6{
+    margin-left: 5px; 
+	margin-right: 5px;
+	overflow-y:scroll;
+	height: 100px;
+	box-shadow: -4px -4px 8px 8px rgba(0, 0, 0, 0.6);
+	background-color: white;
+}
+select {
+	padding : 10px; margin-left: 25px; background-color: gray;
+	box-shadow: -2px -2px 0px 0px rgba(0, 0, 0, 0.6);
+}
+
+textarea {
+	width : 850px;
+	height: 400px;
+	background-color: #f9fafc;
+	align-items: center;
+	font-size: 20px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
